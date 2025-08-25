@@ -1,0 +1,26 @@
+baseURL = 'https://sam9.xyz'
+languageCode = 'en-US'
+title = "Kitai"
+
+[params]
+email = "me.sam9@proton.me"
+gitRepository = "https://github.com/me-sam9"
+gitRepositoryName = "me-sam9"
+
+[menus]
+  [[menus.main]]
+    name = 'home'
+    pageRef = '/'
+
+  [[menus.main]]
+    name = 'posts'
+    pageRef = '/posts'
+
+  [[menus.main]]
+    name = 'proyects'
+    pageRef = '/proyects'
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
