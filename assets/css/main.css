@@ -13,19 +13,27 @@ h1, h2, h3
 	line-height: 1.2;
 }
 
-.home-columns
+/* I hate css */
+.columns
 {
 	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
 }
 
-.home-columns img
+.columns > *
 {
-	width: 100%;
+	flex: 1 1 50%;
 }
 
-.home-columns ul
+.columns div img
 {
-	width: 100%;
+	width: 512px;
+}
+
+ul
+{
+	text-align: left;
 	list-style-type: "→ ";
 }
 

@@ -3,23 +3,27 @@
     {{ partial "header.html" . }}
   </header>
   {{ .Content }}
-  <section class="home-columns">
-    <img src="tux.gif" alt="a rotating image of the tux penguin (the linux logo)">
-    <ul>
-    {{ range site.RegularPages }}
-      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-      {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <section class="columns">
+    <div>
+      <img src="tux.gif" alt="a rotating image of the tux penguin (the linux logo)">
+    </div>
+    <div>
+      <ul>
+      {{ range site.RegularPages }}
+        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+        {{ $dateHuman := .Date | time.Format ":date_long" }}
 
-      <li>
-        <p>
-          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-          <em> - <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></em>
-        </p>
-        <div class="summary">
-          {{ .Content | strings.Truncate 128 }}
-        </div>
-      </li>
-    {{ end }}
-    </ul>
+        <li>
+          <p>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            <em> - <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></em>
+          </p>
+          <div class="summary">
+            {{ .Content | strings.Truncate 128 }}
+          </div>
+        </li>
+      {{ end }}
+      </ul>
+    </div>
   </section>
 {{ end }}
