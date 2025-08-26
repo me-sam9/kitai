@@ -5,6 +5,8 @@ description = "A simple yet pretty theme for hugo"
 
 homepage = "https://github.com/me-sam9/kitai"
 
+demosite = "https://sam9.xyz"
+
 tags = ["blog", "simple", "minimal", "light"]
 features = ["favicon", "images", "no javascript"]
 
