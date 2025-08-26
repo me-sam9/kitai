@@ -55,13 +55,10 @@ header
 
 header ul
 {
-	padding-left: 0.2rem;
+	display: flex;
+	padding-left: .2rem;
 	list-style: none;
-}
-
-header ul li
-{
-	display: inline-block;
+	gap: 8px;
 }
 
 footer
