@@ -6,6 +6,10 @@ title = "Kitai"
 email = "me.sam9@proton.me"
 gitRepository = "https://github.com/me-sam9"
 gitRepositoryName = "me-sam9"
+image = "tux.gif"
+imageDescription = "a rotating image of the tux penguin (the linux logo)"
+errorImage = "dead-end.gif"
+errorImageDescription = 'a clip of agent Smith from "The Matrix (1999)", saying "Sorry, this is a dead end"'
 
 [menus]
   [[menus.main]]

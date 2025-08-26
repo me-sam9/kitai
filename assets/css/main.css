@@ -75,3 +75,8 @@ footer ul
 	padding-left: 1rem;
 	list-style: none;
 }
+
+#dead-end 
+{
+	width: 100%;
+}
