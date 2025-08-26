@@ -1,0 +1,12 @@
+name = "Kitai"
+license = "GPL-3.0"
+licenselink = "https://www.gnu.org/licenses/gpl-3.0.en.html#license-text"
+description = "A simple yet pretty theme for hugo"
+
+homepage = "https://github.com/me-sam9/kitai"
+
+tags = ["blog", "simple", "minimal", "light"]
+
+[author]
+    name = "Sam9"
+    homepage = "https://sam9.xyz"
