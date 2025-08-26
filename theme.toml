@@ -6,6 +6,7 @@ description = "A simple yet pretty theme for hugo"
 homepage = "https://github.com/me-sam9/kitai"
 
 tags = ["blog", "simple", "minimal", "light"]
+features = ["favicon", "images", "no javascript"]
 
 [author]
     name = "Sam9"
